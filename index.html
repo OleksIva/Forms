@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form_container">
+            <div class="form">
+                <form action="#" class="form">
+                    <div class="switch_box">
+                        <input type="checkbox" id="switch">
+                        <label for="switch"></label>
+                        <span>Вход</span>
+                        <span>Регистрация</span>
+                    </div> 
+                    <h1>Вход</h1>
+                    <label class="login_input">
+                        <input type="text" placeholder="Введите E-mail" name="login">
+                    </label>
+                    <label class="password_input">
+                        <input type="password" placeholder="Пароль" name="password">
+                    </label>
+                    <div class="remember_me">
+                        <div><input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Запомнить меня</label></div>
+                        <a href="#" class="pass_forgotten">Забыли пароль?</a>
+                    </div>
+                    <input type="submit" class="submit" value="Войти">
+                    <div class="register">
+                        <span>Еще нет аккаунта?</span>
+                        <a href="">Зарегистрироваться</a>
+                    </div>
+                    <div class="socialnetworks">
+                        <span>Или войдите через</span>
+                        <div class="svg_container">
+                        <a href="">
+                            <svg class="svg_networks facebook"><use xlink:href="images/sprite.svg#facebook"></use></svg>
+                        </a>
+                        <a href="">
+                            <svg class="svg_networks"><use xlink:href="images/sprite.svg#instagram"></use></svg>
+                        </a>
+                        <a href="">
+                            <svg class="svg_networks"><use xlink:href="images/sprite.svg#linkedin"></use></svg>
+                        </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
